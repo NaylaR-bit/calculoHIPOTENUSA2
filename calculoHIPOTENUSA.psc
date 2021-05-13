@@ -11,7 +11,7 @@ Algoritmo calculoHipotenusa2
 	Escribir  "Ingrese valor cateto adyacente";
 	leer cateto_adyacente;
 	
-	hipotenusa = cateto_opuesto*2 + cateto_adyacente*2;
+	hipotenusa = cateto_opuesto^2 + cateto_adyacente^2;
 	hipotenusa = rc(hipotenusa);
 	
 	
